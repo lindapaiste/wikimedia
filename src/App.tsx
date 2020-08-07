@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
-import { Schema, getFileData } from "./api";
+import { getFileData } from "./api";
+import {Schema} from "./types";
 
 export default function App() {
   const [text, setText] = useState("");
